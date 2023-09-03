@@ -8,7 +8,7 @@ def two_sum(nums, target):
         for j in range(i+1, len(nums)):
             if nums[i] + nums[j] == target:
                 index_1 = nums.index(nums[i])
-                index_2 = nums.index(nums[j], index_1+1,)
+                index_2 = nums.index(nums[j], index_1+1)
                 return [index_1, index_2]
     
 
