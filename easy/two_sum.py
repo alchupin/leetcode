@@ -17,7 +17,8 @@ def two_sum(nums, target):
         result = {}
         for i, num in enumerate(nums):
             diff = target - num
-            if diff not in result:
-                result[num] = i
-            else:
+            if diff in result:
                 return [result[diff], i]
+            else:
+                result[num] = i
+                
