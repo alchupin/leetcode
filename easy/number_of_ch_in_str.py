@@ -1,3 +1,7 @@
+from collections import Counter
+from typing import Iterable
+
+
 def count_ch_in_str(s):
     result = ''
     dct = {}
@@ -12,4 +16,21 @@ def count_ch_in_str(s):
     return result, max_count
 
 s = 'dukgskflagwiefgbanlsygfdhilsduwjdfukyrgfhsdhufhwiurgfhsldfushirgufhjlseuf'
-print(count_ch_in_str(s))
+# print(count_ch_in_str(s))
+
+s_c = Counter(s).most_common()[0]
+# print(s_c)
+
+def most_common_ch(s: str) -> Iterable:
+    max_ = 0
+    result_dict = {}
+    for ch in s:
+        if ch not in result_dict:
+            result_dict[ch] = 0
+        result_dict[ch] += 1
+        if result_dict[ch] > max_:
+            max_ = result_dict[ch]
+            result = ch
+    return result, max_
+
+print(most_common_ch(s))
