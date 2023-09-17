@@ -1,5 +1,4 @@
 from math import inf
-from os import F_OK
 
 l = [4, 22, 35, 8, 13, 7, 19, 22, 35, 13]
 number = 23
