@@ -61,5 +61,8 @@ l_with_one_maximum = [2, 1, 4, 2, 6, 2, 4, 1, 1, 1, 2, 3]
 
 
 # print(count_water_cubes(l_with_one_maximum))
-print(count_water_cubes(l))
+# print(count_water_cubes(l))
 
+height = [4,2,3]
+
+print(count_water_cubes(height))
