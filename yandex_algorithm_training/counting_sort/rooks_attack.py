@@ -9,7 +9,7 @@ def count_pairs(row_or_col):
         pairs += row_or_col[key] - 1
     return pairs
 
-def rooks_atack(rook_coords):
+def rooks_attack(rook_coords):
     rooks_in_row = {}
     rooks_in_col = {}
     for row, col in rook_coords:
