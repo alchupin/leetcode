@@ -1,7 +1,7 @@
 from math import gcd
 
 file_path = 'input.txt'
-file_path = '/home/alexey/study/leetcode-1/ALGO_4/warm_up/b_sum_two_fractions.txt'
+file_path = '/home/alexey/study/leetcode-1/ALGO_4/warm_up/data/b_sum_two_fractions.txt'
 
 with open(file_path, 'r') as f:
     a, b, c, d = map(int, f.readline().split())

@@ -1,5 +1,5 @@
 file_path = 'input.txt'
-file_path = '/home/alexey/study/leetcode-1/ALGO_4/warm_up/i_valid_parentheses.txt'
+file_path = '/home/alexey/study/leetcode-1/ALGO_4/warm_up/data/i_valid_parentheses.txt'
 
 def is_valid_parentheses(s):
     if s == '':

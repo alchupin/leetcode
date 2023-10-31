@@ -1,5 +1,5 @@
 file_path = 'input.txt'
-file_path = '/home/alexey/study/leetcode-1/ALGO_4/warm_up/j_sum_of_two_products.txt'
+file_path = '/home/alexey/study/leetcode-1/ALGO_4/warm_up/data/j_sum_of_two_products.txt'
 
 # на интервале [n/a, n/b] должно быть целое число
 

@@ -10,7 +10,7 @@ def get_not_minimum(l):
     return 'NOT FOUND'
 
 file_path = 'input.txt'
-file_path = '/home/alexey/study/leetcode-1/ALGO_4/warm_up/a_not_minimum_data.txt'
+file_path = '/home/alexey/study/leetcode-1/ALGO_4/warm_up/data/a_not_minimum_data.txt'
 
 
 with open(file_path, 'r') as f:
