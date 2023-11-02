@@ -1,7 +1,7 @@
 file_path = 'input.txt'
 file_path = '/home/alexey/study/leetcode-1/ALGO_4/warm_up/data/j_sum_of_two_products.txt'
 
-# на интервале [n/a, n/b] должно быть целое число
+# на отрезке [n/a; n/b] должно быть целое число
 
 def can_collect_sum(n, a, b):
     if (a == 1 or b == 1):
