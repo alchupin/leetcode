@@ -8,12 +8,12 @@ for ch in s1:
     if ch in d1:
         d1[ch] += 1
     else:
-        d1[ch] = 0
+        d1[ch] = 1
 for ch in s2:
     if ch in d2:
         d2[ch] += 1
     else:
-        d2[ch] = 0
+        d2[ch] = 1
 if d1 == d2:
     print('YES')
 else:
